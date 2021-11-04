@@ -1,0 +1,13 @@
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\bin\Debug\netcoreapp3.1\lab6.2.exe
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\bin\Debug\netcoreapp3.1\lab6.2.deps.json
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\bin\Debug\netcoreapp3.1\lab6.2.runtimeconfig.json
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\bin\Debug\netcoreapp3.1\lab6.2.runtimeconfig.dev.json
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\bin\Debug\netcoreapp3.1\lab6.2.dll
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\bin\Debug\netcoreapp3.1\lab6.2.pdb
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\obj\Debug\netcoreapp3.1\lab6.2.csproj.AssemblyReference.cache
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\obj\Debug\netcoreapp3.1\lab6.2.AssemblyInfoInputs.cache
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\obj\Debug\netcoreapp3.1\lab6.2.AssemblyInfo.cs
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\obj\Debug\netcoreapp3.1\lab6.2.csproj.CoreCompileInputs.cache
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\obj\Debug\netcoreapp3.1\lab6.2.dll
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\obj\Debug\netcoreapp3.1\lab6.2.pdb
+D:\Files\univeersity\AP\Projects(C#)\lab6.2\lab6.2\obj\Debug\netcoreapp3.1\lab6.2.genruntimeconfig.cache
