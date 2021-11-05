@@ -10,7 +10,7 @@ namespace ProgramNS {
     public class Program {
         static void Main(string[] args) {
             int []a;
-            int n, max;
+            int n, index = -1;
 
             Console.Write("Enter n: ");
             n = Convert.ToInt32(Console.ReadLine());
@@ -20,9 +20,9 @@ namespace ProgramNS {
             Console.Write("\nArray:");
             PrintArray(a, 0);
 
-            max = MaxOddElement(a, 0, 0);
-            if (max != 0)
-                Console.WriteLine($"\nMax odd element: {max}\n");
+            index = MaxOddElement(a, 0, 0, index);
+            if (index != -1)
+                Console.WriteLine($"\nMax odd element: {a[index]}\n");
             else
                 Console.WriteLine("\nThere is no odd element in array.\n");
         }
@@ -33,14 +33,20 @@ namespace ProgramNS {
             a[i] = rand.Next(-1000, 1000);
             return ArrayBuilder(a, i + 1);
         }
-        public static int MaxOddElement(int[] a, int i, int max) {
+        public static int MaxOddElement(int[] a, int i, int max, int indexMax) {
             if (i >= a.Length)
-                return max;
-            else if (a[i] % 2 == 1)
-                if (max == 0) max = a[i];
-                else if (a[i] > max) max = a[i];
+                return indexMax;
+            else if (a[i] % 2 != 0)
+                if (indexMax == -1) {
+                    max = a[i];
+                    indexMax = i;
+                }
+                else if (a[i] > max) {
+                    max = a[i];
+                    indexMax = i;
+                }
 
-            return MaxOddElement(a, i + 1, max);
+            return MaxOddElement(a, i + 1, max, indexMax);
         }
         static void PrintArray(int[] a, int i) {
             if (i < a.Length) {
